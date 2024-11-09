@@ -193,7 +193,9 @@ h6 {
 .form-group input {
     height: 3.75rem;
 }
-
+.form-group select {
+    height: 3.75rem;
+}
 .form-group:last-child {
     margin-bottom: 0;
 }
