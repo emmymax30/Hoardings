@@ -57,6 +57,7 @@ CSS INDEX
     6.6 Text
 
 --------------------------------------------*/
+
 /*=======================================================================
 1. Typography 
 =========================================================================*/
@@ -3843,6 +3844,19 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
     color: #ffffff;
     cursor: pointer;
 }
+
+.form-group select {
+    width: 100%;
+    outline: none;
+    padding: 0 20px;
+    border:1px solid rgb(255, 255, 255);
+}
+.form-group select:hover{
+    background-color: #ebe2e2;
+}
+
+
+
 
 .modal-location .modal-dialog .modal-content .location-list .item-title {
     font-weight: 700;
