@@ -1253,6 +1253,25 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
+.checkout-btn {
+    list-style-type: none;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #f9ae21;
+    border-radius: 3.125rem;
+    padding: 0.6875rem 1.875rem;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
 
 .header-action-layout1 ul .header-btn .item-btn i {
     font-size: 1rem;
