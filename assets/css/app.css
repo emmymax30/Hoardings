@@ -1707,6 +1707,11 @@ nav.template-main-menu > ul > li:hover ul.mega-menu {
     margin-bottom: 0;
     border-radius: 0.125rem 0.125rem 0 0;
 }
+.widget-bg-title > a {
+    color: #ffffff;
+    display: block;
+    width: 100%;
+}
 
 .widget-border-title {
     color: #2a2a2a;
@@ -5862,12 +5867,24 @@ a.item-trending:after {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
+.search-box-layout1 form .form-group .submit-btn > a {
+    display: block;
+    border: none;
+    background-color: #f9ae21;
+    font-weight: 600;
+    color: #ffffff;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
 
 .search-box-layout1 form .form-group .submit-btn i {
     margin-right: 0.625rem;
 }
 
 .search-box-layout1 form .form-group .submit-btn:hover {
+    background-color: #007000;
+}
+.search-box-layout1 form .form-group .submit-btn > a:hover {
     background-color: #007000;
 }
 
